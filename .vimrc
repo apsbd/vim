@@ -32,8 +32,8 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 
-let s:schemes = GetColorSchemes()
-if index(s:schemes, 'gruvbox') >= 0
+let schemes = GetColorSchemes()
+if index(schemes, 'gruvbox') >= 0
    colorscheme gruvbox
    set background=dark
 endif
