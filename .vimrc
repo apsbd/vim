@@ -34,7 +34,7 @@ call plug#end()
 
 let s:schemes = GetColorSchemes()
 if index(s:schemes, 'gruvbox') >= 0
-   colorscheme solarized
+   colorscheme gruvbox
 endif
 
 autocmd StdinReadPre * let s:std_in=1
