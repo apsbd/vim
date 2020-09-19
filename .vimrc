@@ -35,6 +35,7 @@ call plug#end()
 let s:schemes = GetColorSchemes()
 if index(s:schemes, 'gruvbox') >= 0
    colorscheme gruvbox
+   set background=dark
 endif
 
 autocmd StdinReadPre * let s:std_in=1
